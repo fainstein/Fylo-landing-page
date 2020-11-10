@@ -1,0 +1,467 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-size: 1.12rem;
+  line-height: 1.4;
+  color: hsl(243, 87%, 12%);
+}
+
+/* Containers */
+.container-fluid {
+  padding: 4rem 5rem;
+}
+
+/* Navigation Bar */
+#navigation-bar-section {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:link, .nav-link:visited {
+  color: hsl(243, 87%, 12%);
+}
+
+/* Title Section */
+#title-section {
+  padding-top: 5.8rem;
+  padding-bottom: 6.6rem;
+  background-image: url("../images/illustration-1.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin: 0 5rem 11.4rem;
+}
+
+.title-container {
+  max-width: 46%;
+  margin: 0;
+}
+
+.top-form {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.email-input {
+  border-color: black;
+  border-radius: 0.12rem;
+  height: 2.7rem;
+  width: 20rem;
+}
+
+.email-input::placeholder {
+  color: hsl(0, 0%, 75%);
+  font-size: 14px;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  border-radius: 0.12rem;
+  background-color: hsl(224, 93%, 58%);
+  border-color: hsl(224, 93%, 58%);
+  padding: 12px 10%;
+  margin: 0 2%;
+}
+
+/* Curve Division */
+#curve-division {
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 126px;
+}
+
+/* Features Section */
+#features-section {
+  background-color: hsl(240, 75%, 98%);
+  padding-bottom: 6rem;
+}
+
+.features-container {
+  background-image: url("../images/illustration-2.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 43%;
+  margin: auto 5rem;
+}
+
+.features-title {
+  padding-bottom: 1rem;
+  max-width: 60%;
+}
+
+.features-subtitle {
+  max-width: 46%;
+}
+
+.see-how-container {
+  display: inline-block;
+}
+
+.see-how {
+  color: hsl(170, 45%, 43%);
+  display: inline-block;
+  margin: 0;
+}
+
+hr {
+  border-top-color: hsl(170, 45%, 43%);
+  margin: 0;
+  border-bottom: 0;
+}
+
+.quotes-card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+    width: 350px;
+  padding: 2% 2%;
+  margin-top: 3%;
+}
+
+.quotes-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.avatar-quotes {
+  border-radius: 100%;
+  width: 2rem;
+  float: left;
+  margin-right: .5rem;
+}
+
+.quotes-name {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.quotes-role {
+  font-size: 10px;
+}
+
+/* CTA Section */
+#cta-section {
+  background-color: hsl(238, 22%, 44%);
+  padding: 5rem 5rem;
+}
+
+.cta-title {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 2%;
+}
+
+.cta-text {
+  font-size: 17px;
+  color: white;
+  line-height: 1.7;
+  width: 84%;
+  opacity: 0.8;
+}
+
+.cta-form {
+  margin: auto 3rem auto 5.5rem;
+}
+
+#cta-section .cta-email {
+  width: 100%;
+}
+
+#cta-section .btn {
+  margin: 1rem 0 auto;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+/* Footer Section */
+#footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 5rem 5rem;
+  color: #fff;
+}
+
+.footer-links {
+  opacity: 0.9;
+}
+
+#footer p {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.footer-logo {
+  margin-bottom: 2rem;
+}
+
+.contact-data {
+  display: inline-block;
+}
+
+.contact-data p {
+  display: inline-block;
+}
+
+.footer-contact-icon {
+  margin-right: 1rem;
+}
+
+.footer-2nd-column {
+  padding-left: 7.5rem;
+}
+
+.footer-3rd-column {
+  padding-left: 4rem;
+}
+
+/* Social Media */
+.circle {
+  display: inline-block;
+  border-radius: 100%;
+  border-width: thin;
+  border-style: solid;
+  border-color: #fff;
+  width: 2rem;
+  height: 2rem;
+  margin: auto .25rem;
+  text-align: center;
+}
+
+.circle i {
+  margin: 6.9px;
+}
+
+/* FEM Footer Section*/
+.attribution {
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+
+  /* NAVBAR */
+  #navigation-bar-section {
+    font-size: 12px;
+  }
+
+  .navbar-expand .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
+  }
+
+  .navbar-logo {
+    width: 90px;
+    padding-left: 10px;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  #title-section, #features-section, #cta-section, #footer {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  #title-section, #features-section {
+    background-position: center top;
+    background-size: 70%;
+    text-align: center;
+  }
+
+  #title-section {
+    margin-top: 4rem;
+  }
+
+  #title-section .title-container {
+    max-width: none;
+    margin-top: 60%;
+    margin-bottom: 7rem;
+  }
+
+  #title-section h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  #title-section p {
+    font-size: .9rem;
+    line-height: 1.5;
+    padding: 1rem;
+  }
+
+  .container-fluid {
+    padding: 1rem;
+  }
+
+  /* Top Form */
+  .email-input {
+    margin-bottom: 20px;
+  }
+
+  .top-form-btn {
+    width: 20rem;
+  }
+
+  /* Curve Division */
+  #curve-division {
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Features Section */
+  .features-container {
+    margin: 5px;
+    padding-top: 90%;
+    background-size: contain;
+    background-position: top center;
+  }
+
+  .features-title {
+    max-width: none;
+    font-size: 1rem;
+  }
+
+  .features-subtitle {
+    max-width: none;
+    font-size: .9rem;
+    line-height: 1.5;
+    opacity: 0.8;
+  }
+
+  .see-how {
+    font-size: .7rem;
+  }
+
+  .quotes-card {
+    width: 270px;
+    margin: 2rem;
+    text-align: left;
+    padding: 1rem .9rem 1rem 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .quotes-text {
+    font-size: 10px;
+  }
+
+  .avatar-quotes {
+    width: 1.5rem;
+  }
+
+  .quotes-name {
+    font-size: 10px;
+  }
+
+  .quotes-role {
+    font-size: 8px;
+  }
+
+  /* CTA Section */
+  #cta-section {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .cta-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .cta-text {
+    font-size: .8rem;
+    width: auto;
+    letter-spacing: .7px;
+    padding: 5px 25px;
+    line-height: 1.7;
+  }
+
+  .cta-form {
+    margin: auto 3rem;
+  }
+
+  #cta-section .cta-email {
+    margin-bottom: 8px;
+    height: auto;
+    font-size: 10px;
+    padding: .5rem .75rem;
+  }
+
+  #cta-section .btn {
+    margin: 0 0 1rem;
+    padding: 7px 10%;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  /* Footer Section */
+  #footer {
+    padding: 3rem 2.3rem;
+  }
+
+  .footer-2nd-column {
+    padding: 2rem 0 1rem 15px;
+  }
+
+  .footer-3rd-column {
+    padding: 1rem 0 1rem 15px;
+  }
+
+  .footer-4th-column {
+    text-align: center;
+  }
+
+  .attribution{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1290px) {
+  .email-input {
+    margin-bottom: 20px;
+  }
+
+  .top-form-btn {
+    width: 20rem;
+    margin: 0;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 991px) {
+#title-section, .features-container{
+  margin: auto 20%;
+}
+
+.features-container{
+  padding-top: 50%;
+
+}
+
+#cta-section{
+  padding: 3rem 20%;
+}
+
+  }
